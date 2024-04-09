@@ -13,6 +13,10 @@ a {
     text-decoration: none;
 }
 
+ul {
+    padding-left: 1.5em;
+}
+
 /* header */
 
 header p {
@@ -44,20 +48,36 @@ main p {
 
 /* main */
 
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
 thead {
     background-color: #20a9e5;
 }
 
-tbody tr {
+tbody tr:first-child,
+tbody tr:last-child {
     background-color: #b1e5f2;
+}
+
+
+.width-50 {
+    width: 50%;
 }
 
 /* footer */
 
 footer p,
+ul li,
+.box {
+    font-size: 1.5em;
+}
+
+footer p,
 .box {
     margin-bottom: .5em;
-    font-size: 1.5em;
 }
 
 footer h2 {
