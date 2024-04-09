@@ -19,7 +19,7 @@ header p {
     margin: 0;
 }
 
-header>section:first-child {
+header>div:first-child {
     background-color: #4ea0ff;
     background-image: url(img/pattern.png);
 }
@@ -42,6 +42,16 @@ main p {
     font-size: 2em;
 }
 
+/* main */
+
+thead {
+    background-color: #20a9e5;
+}
+
+tbody tr {
+    background-color: #b1e5f2;
+}
+
 /* footer */
 
 footer p,
@@ -50,7 +60,7 @@ footer p,
     font-size: 1.5em;
 }
 
-footer p {
+footer h2 {
     color: #797979;
     font-weight: 700;
 }
