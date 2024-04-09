@@ -1,6 +1,11 @@
 /* general */
 body {
-    margin: auto 0;
+    margin: 0;
+}
+
+section,
+main {
+    margin: 0 0 0 .5em;
 }
 
 h1 {
@@ -16,12 +21,7 @@ a {
 ul {
     padding-left: 1.5em;
 }
-
 /* header */
-
-header p {
-    margin: 0;
-}
 
 header>div:first-child {
     background-color: #4ea0ff;
@@ -29,7 +29,7 @@ header>div:first-child {
 }
 
 #logo {
-    margin: 6em 0 1em 0;
+    margin: 6em 0 1em .5em;
     width: 15em;
 }
 
@@ -49,6 +49,10 @@ thead {
 
 th {
     text-align: justify;
+}
+
+td {
+    font-weight: 700;
 }
 
 /* footer */
@@ -97,8 +101,8 @@ tbody tr:last-child {
 footer p,
 ul li,
 .box,
-td,
-th {
+th,
+td {
     font-size: 1.5em;
 }
 
