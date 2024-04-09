@@ -3,3 +3,13 @@
     margin: 0;
     padding: 0;
 }
+
+header {
+    background-color: aqua;
+    background-image: url(img/pattern.png);
+}
+
+#logo {
+    margin: 6em 0 1em 0;
+    width: 15em;
+}
