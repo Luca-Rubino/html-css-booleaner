@@ -9,6 +9,10 @@ a {
     text-decoration: none;
 }
 
+li {
+    margin: 0 0 0 1.1em  
+}
+
 section>* {
     padding: 0 0 0 .5rem;
 }
