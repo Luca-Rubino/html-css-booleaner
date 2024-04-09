@@ -4,7 +4,16 @@
     padding: 0;
 }
 
-section:first-child {
+a {
+    color: #7bccf0;
+    text-decoration: none;
+}
+
+section>* {
+    padding: 0 0 0 .5rem;
+}
+
+header>section:first-child {
     background-color: aqua;
     background-image: url(img/pattern.png);
 }
@@ -17,3 +26,4 @@ section:first-child {
 h1 {
     font-size: 4em;
 }
+
